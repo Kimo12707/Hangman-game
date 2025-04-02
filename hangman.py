@@ -223,8 +223,6 @@ def hangman(secret_word, with_help):
 
 
 
-# When you've completed your hangman function, scroll down to the bottom
-# of the file and uncomment the lines to test
 
 if __name__ == "__main__":
     # To test your game, uncomment the following three lines.
@@ -233,13 +231,3 @@ if __name__ == "__main__":
     with_help = True
     hangman(secret_word, with_help)
 
-    # After you complete with_help functionality, change with_help to True
-    # and try entering "!" as a guess!
-
-    ###############
-
-    # SUBMISSION INSTRUCTIONS
-    # -----------------------
-    # It doesn't matter if the lines above are commented in or not
-    # when you submit your pset. However, please run ps2_student_tester.py
-    # one more time before submitting to make sure all the tests pass.
